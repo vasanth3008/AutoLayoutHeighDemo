@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface WPViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *button1;
+- (IBAction)buttClicked:(id)sender;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *heightConstrain;
 
+@property (strong, nonatomic) IBOutlet UIButton *button2;
 @end
